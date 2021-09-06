@@ -60,6 +60,8 @@ export default function convertMacro2Html(inStr, meRole) {
   ret = ret.replace(/[CＣ]/g, "<span class='marker-C'>C</span>");
   ret = ret.replace(/([^HDＨＤ])([1１])/g, "$1<span class='marker-1'>$2</span>");
   ret = ret.replace(/([^HDＨＤ])([2２])/g, "$1<span class='marker-2'>$2</span>");
+  ret = ret.replace(/([^DＤ])([3３])/g, "$1<span class='marker-3'>$2</span>");
+  ret = ret.replace(/([^DＤ])([4４])/g, "$1<span class='marker-4'>$2</span>");
   if (meRole) {
     const re = new RegExp(meRole, 'g');
     ret = ret.replace(re, "<span class='me'>$&</span>");

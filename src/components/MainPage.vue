@@ -66,16 +66,22 @@ body{
   color: #db5872;
 }
 .marker-B{
-  color: gold;
+  color: #FFF458;
 }
 .marker-C{
-  color: blue;
+  color: #74F3FA;
 }
 .marker-1{
   color: #db5872;
 }
 .marker-2{
-  color: gold;
+  color: #FFF458;
+}
+.marker-3{
+  color: #74F3FA;
+}
+.marker-4{
+  color: #E275FF;
 }
 .me{
   color: red;
