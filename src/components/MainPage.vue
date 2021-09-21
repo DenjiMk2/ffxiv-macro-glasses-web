@@ -1,5 +1,6 @@
 <template>
   <div>
+    <a href="https://github.com/DenjiMk2/ffxiv-macro-glasses-web#readme" class="back-link">使い方(githubに戻る)</a>
     <div>
       <select class="me" v-model="meRole" @change="throwGlass">
         <option value="">宣言</option>
@@ -12,7 +13,6 @@
         <option class="healer">H1</option>
         <option class="healer">H2</option>
       </select>
-      <button v-on:click="pasteMacro">ペースト</button>
     </div>
     <textarea v-model="inMacro" @input="throwGlass">
     </textarea>
@@ -36,10 +36,6 @@
       throwGlass() {
         this.outMacro = convertMacro2Html(this.inMacro, this.meRole);
       },
-      pasteMacro() {
-        this.inMacro = this.$electron.clipboard.readText();
-        this.throwGlass();
-      },
     },
   };
 </script>
@@ -49,6 +45,10 @@ body{
   font-family: sans-serif;
   background-color: #383838;
   color: #CCCCCC;
+}
+.back-link{
+  background: #EEEEEE;
+  font-size: 10px;
 }
 .outputPanel{
   font-size: 14px;
