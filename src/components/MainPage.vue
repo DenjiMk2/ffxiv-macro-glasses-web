@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="https://github.com/DenjiMk2/ffxiv-macro-glasses-web#readme" class="back-link">使い方(githubに戻る)</a>
+    <a href="https://github.com/DenjiMk2/ffxiv-macro-glasses-web#readme" class="back-link">使い方(Githubへ)</a>
     <div>
       <select class="me" v-model="meRole" @change="throwGlass">
         <option value="">宣言</option>
