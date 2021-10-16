@@ -19,6 +19,10 @@
     <pre class="outputPanel" v-html="outMacro" />
     <!-- </pre> -->
   </div>
+  <footer>
+    <p class="copyright">(C) SQUARE ENIX CO., LTD. All Rights Reserved.</p>
+    <p class="copyright">(C) DenjiMk2</p>
+  </footer>
 </template>
 
 <script>
@@ -52,6 +56,7 @@ body{
 }
 .outputPanel{
   font-size: 14px;
+  min-height:500px;
 }
 .dps{
   color: #FF9933;
@@ -85,5 +90,10 @@ body{
 }
 .me{
   color: red;
+}
+.copyright{
+  font-size:8pt;
+  color:#808080;
+  margin:1px;
 }
 </style>
