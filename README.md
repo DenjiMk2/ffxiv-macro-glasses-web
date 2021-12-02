@@ -1,6 +1,8 @@
 # ffxiv-macro-glasses
 [FFXIV](https://jp.finalfantasyxiv.com/)の高難易度コンテンツ内での散開マクロをマークアップして表示するwebツールです。
 
+![image](https://user-images.githubusercontent.com/13076835/144484537-1bcf4cd1-51ad-42ec-8ffc-612afeaa108b.png)
+
 以下のURLで公開しています（GitHubPagesを使用）
 https://denjimk2.github.io/ffxiv-macro-glasses-web/
 ## 使い方
