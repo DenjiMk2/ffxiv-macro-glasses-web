@@ -14,7 +14,7 @@
         <option class="healer">H2</option>
       </select>
     </div>
-    <textarea v-model="inMacro" @input="throwGlass">
+    <textarea v-model="inMacro" @input="throwGlass" placeholder="マクロをそのままペースト">
     </textarea>
     <pre class="outputPanel" v-html="outMacro" />
     <!-- </pre> -->
