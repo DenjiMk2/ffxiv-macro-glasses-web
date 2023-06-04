@@ -56,6 +56,7 @@ body{
 }
 .outputPanel{
   font-size: 14px;
+  font-family: sans-serif;
   min-height:500px;
 }
 .dps{
